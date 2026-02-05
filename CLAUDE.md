@@ -2,15 +2,18 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## 프로젝트 개요
+## 프로젝트: ISA 주식 투자 시뮬레이터 (ISA-Sim)
 
-풀스택 웹 애플리케이션으로 프론트엔드(Next.js)와 백엔드(FastAPI)가 분리된 구조입니다.
+## 프로젝트 개요
+ISA(개인종합관리계좌)를 기반으로 한 주식 투자 시뮬레이션 웹 애플리케이션입니다. 
+사용자가 종목을 검색하고, 적립식 투자 시나리오를 설정하여 예상 수익률과 절세 혜택을 시각적으로 확인할 수 있도록 합니다.
 
 ## 기술 스택
-
+풀스택 웹 애플리케이션으로 프론트엔드(Next.js)와 백엔드(FastAPI)가 분리된 구조입니다.
 - **Frontend**: Next.js 14 + TypeScript + Tailwind CSS (App Router 사용)
 - **Backend**: Python 3.12 + FastAPI
 - **Database**: SQLite (SQLAlchemy ORM)
+- **External Data(MCP)**: mcp-server-finance
 
 ## 주요 명령어
 
